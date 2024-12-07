@@ -1,0 +1,18 @@
+@import "../node_modules/ngx-bootstrap/datepicker/bs-datepicker";
+
+@import "../node_modules/bootswatch/dist/united/variables";
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootswatch/dist/united/bootswatch";
+
+body{
+    font-family: 'Nunito', sans-serif;
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+.toast-container { 
+    position: fixed !important; 
+    top: 20px;
+    right: 20px; 
+    z-index: 1000;
+}
